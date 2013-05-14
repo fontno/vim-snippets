@@ -1,0 +1,28 @@
+snippet rsh
+	require 'spec_helper'${1}
+
+snippet fea
+	feature "${1:feature}" do
+		${2}
+	end
+
+snippet sce
+	scenario "${1:scenario}" do
+		${2}
+	end
+
+snippet con
+	context "${1:context}" do
+		${2}
+	end
+
+snippet bac
+	backround do
+		${1}
+	end
+
+snippet giv
+	given(${1:variable}) { ${2} }${3}
+
+snippet giv!
+	given!(${1:variable}) { ${2} }${3}
